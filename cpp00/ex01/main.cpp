@@ -1,36 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ClassePhoneBook.hpp                                :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vdunatte <vdunatte@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/05 00:08:15 by vdunatte          #+#    #+#             */
-/*   Updated: 2025/08/08 03:50:56 by vdunatte         ###   ########.fr       */
+/*   Created: 2025/08/08 03:41:10 by vdunatte          #+#    #+#             */
+/*   Updated: 2025/08/08 03:50:51 by vdunatte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CLASSEPHONEBOOK_HPP
-# define CLASSEPHONEBOOK_HPP
+#include "ClassePhoneBook.hpp"
+#include "ClasseContact.hpp"
+#include <iostream>
 
-# include "ClasseContact.hpp"
-# include <iostream>
-
-
-class PhoneBook
+int main()
 {
-private:
-	int		LastIndex;
-	int		NContact;
-	Contact	ListContact[8];
-public:
-	PhoneBook(/* args */);
-	~PhoneBook();
-};
-
-
-
-
-
-
-#endif
+	PhoneBook	NewPhoneBook;
+	std::string	Temp;
+	
+	return 0;
+}
