@@ -6,7 +6,7 @@
 /*   By: vdunatte <vdunatte@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/27 01:12:37 by vdunatte          #+#    #+#             */
-/*   Updated: 2025/08/05 00:03:18 by vdunatte         ###   ########.fr       */
+/*   Updated: 2025/08/13 00:36:37 by vdunatte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ int	main(int argc, char **argv)
 		std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *";
 	while (j < argc)
 	{
+		i = -1;
 		while (argv[j][++i])
 			std::cout << (char)toupper(argv[1][i]);
 		j++;

@@ -6,7 +6,7 @@
 /*   By: vdunatte <vdunatte@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/05 00:08:12 by vdunatte          #+#    #+#             */
-/*   Updated: 2025/08/08 03:47:11 by vdunatte         ###   ########.fr       */
+/*   Updated: 2025/08/12 02:34:41 by vdunatte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,9 @@ private:
 public:
 	Contact();
 	~Contact();
-	void DisplayContact() const;
-	void SetContsct();
+	void SetContact();
+	void DisplayLineContact(int index) const;
+	void PrintContact() const;
 };
 
 

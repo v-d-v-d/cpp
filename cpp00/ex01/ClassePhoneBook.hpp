@@ -6,7 +6,7 @@
 /*   By: vdunatte <vdunatte@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/05 00:08:15 by vdunatte          #+#    #+#             */
-/*   Updated: 2025/08/08 03:50:56 by vdunatte         ###   ########.fr       */
+/*   Updated: 2025/08/12 02:47:40 by vdunatte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,12 @@ private:
 	int		NContact;
 	Contact	ListContact[8];
 public:
-	PhoneBook(/* args */);
+	PhoneBook();
 	~PhoneBook();
+	void NewContact();
+	void SearchContact() const;
+
 };
-
-
 
 
 
