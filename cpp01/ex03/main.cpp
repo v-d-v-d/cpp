@@ -1,20 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   newZombie.cpp                                      :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vdunatte <vdunatte@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/13 00:59:08 by vdunatte          #+#    #+#             */
-/*   Updated: 2025/08/18 02:11:02 by vdunatte         ###   ########.fr       */
+/*   Created: 2025/08/13 00:59:04 by vdunatte          #+#    #+#             */
+/*   Updated: 2025/08/18 15:27:55 by vdunatte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.hpp"
+#include"Weapon.hpp"
 
-Zombie* newZombie( std::string name )
+#include <iostream>
+#include <cstdlib>
+#include <iomanip>
+#include <cstring>
+
+int main()
 {
-	Zombie	*new_zombie = new Zombie(name);
 
-	return(new_zombie);
+	return 0;
 }
