@@ -6,7 +6,7 @@
 /*   By: vdunatte <vdunatte@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/13 00:59:23 by vdunatte          #+#    #+#             */
-/*   Updated: 2025/08/18 15:25:31 by vdunatte         ###   ########.fr       */
+/*   Updated: 2025/08/19 02:12:25 by vdunatte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,10 @@ private:
 public:
 	Zombie(std::string name);
 	~Zombie();
-	void announce( void );
+	void	announce(void);
 };
 
-Zombie* newZombie( std::string name );
-void randomChump( std::string name );
+Zombie	*newZombie(std::string name);
+void	randomChump(std::string name);
 
 #endif

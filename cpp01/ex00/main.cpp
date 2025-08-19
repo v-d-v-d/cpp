@@ -6,13 +6,13 @@
 /*   By: vdunatte <vdunatte@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/13 00:59:04 by vdunatte          #+#    #+#             */
-/*   Updated: 2025/08/15 04:36:44 by vdunatte         ###   ########.fr       */
+/*   Updated: 2025/08/19 02:10:38 by vdunatte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-int main()
+int	main()
 {
 	Zombie	*tortue;
 
@@ -20,5 +20,5 @@ int main()
 	tortue->announce();
 	delete tortue;
 	randomChump("lapin zombie");
-	return 0;
+	return (0);
 }

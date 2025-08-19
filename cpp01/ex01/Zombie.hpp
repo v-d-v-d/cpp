@@ -6,7 +6,7 @@
 /*   By: vdunatte <vdunatte@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/13 00:59:23 by vdunatte          #+#    #+#             */
-/*   Updated: 2025/08/18 02:13:16 by vdunatte         ###   ########.fr       */
+/*   Updated: 2025/08/19 02:09:16 by vdunatte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,10 @@ private:
 public:
 	Zombie();
 	~Zombie();
-	void announce( void ) const;
+	void announce(void) const;
 	void SetName(std::string zombie_name);
 };
 
-Zombie* zombieHorde( int N, std::string name );
+Zombie *zombieHorde(int N, std::string name);
 
 #endif
